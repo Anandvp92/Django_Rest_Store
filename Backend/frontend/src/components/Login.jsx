@@ -6,13 +6,13 @@ const Login = ()=>{
     <div className="container">
 <div className="login-box">
   <h2>Login</h2>
-  <form action="#">
+  <form method="post">
     <div className="input-box">
-      <input type="email" required="" />
+      <input type="email" required />
       <label>Email</label>
     </div>
     <div className="input-box">
-      <input type="password" required="" />
+      <input type="password" required />
       <label>Password</label>
     </div>
     <div className="forgot-pass">
@@ -21,10 +21,11 @@ const Login = ()=>{
     <button type="submit" className="btn">
       Login
     </button>
-    <div className="signup-link">
-      <a href="/register">Signup</a>
-    </div>
+ 
   </form>
+  <div className="signup-link">
+      <a href="/">Create an account</a>
+    </div>
 </div>
 </div>
 );}

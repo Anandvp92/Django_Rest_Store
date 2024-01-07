@@ -6,25 +6,25 @@ const  Register= () =>{
     <div className="container">
 <div className="login-box">
   <h2>Register</h2>
-  <form action="#">
+  <form method="post">
   
     <div className="input-box">
-      <input type="email" required="" />
+      <input type="email" required />
       <label>Email</label>
     </div>
 
     <div className="input-box">
-      <input type="text" required="" />
+      <input type="text" required />
       <label>Phone Number</label>
     </div>
 
     <div className="input-box">
-      <input type="password" required="" />
+      <input type="password" required />
       <label>Password</label>
     </div>
 
     <div className="input-box">
-      <input type="password" required="" />
+      <input type="password" required />
       <label>Confirm Password</label>
     </div>
 
@@ -32,7 +32,7 @@ const  Register= () =>{
       Submit
     </button>
     <div className="signup-link">
-      <a href="/login">Login</a>
+      <a href="/login">Already have an account?</a>
     </div>
   </form>
 
